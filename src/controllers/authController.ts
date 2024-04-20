@@ -40,7 +40,7 @@ export const register = async (req: Request,res: Response): Promise<void> => {
             res.status(400).json({message: 'el mail ingresado ya existe'});
         }
         console.log(error);
-        res.status(500).json({message: 'huno un error en el registro'});
+        res.status(500).json({message: 'hubo un error en el registro'});
     }
 
 }
